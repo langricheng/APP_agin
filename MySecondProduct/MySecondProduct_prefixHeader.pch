@@ -1,0 +1,25 @@
+//
+//  MySecondProduct_prefixHeader.pch
+//  MySecondProduct
+//
+//  Created by chengwen on 16/6/17.
+//  Copyright © 2016年 Shenzhen Tentinet Technology Co,. Ltd. All rights reserved.
+//
+
+#ifndef MySecondProduct_prefixHeader_pch
+#define MySecondProduct_prefixHeader_pch
+
+
+
+#endif /* MySecondProduct_prefixHeader_pch */
+
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "BaseConfig.h"
+#import "Masonry.h"
+#import "CWUIFactory.h"
+
+#endif
